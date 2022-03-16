@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  app:
+    container_name: app
+    image: php:8.1-apache
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    working_dir: /var/www
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+    volumes:
+      - ./:/var/www
+    networks:
+      - network
+
+  mysql:
+    container_name: mysql
+    image: mysql:8
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - mysql:/var/lib/mysql
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
+
+volumes:
+  mysql:
+    driver: local
