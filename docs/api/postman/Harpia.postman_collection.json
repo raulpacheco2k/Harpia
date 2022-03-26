@@ -1,0 +1,119 @@
+{
+    "info": {
+        "_postman_id": "04ec980c-bf03-4598-884d-0ff9af603083",
+        "name": "Harpia",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Bank",
+            "item": [
+                {
+                    "name": "Get All",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/bank",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "bank"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/bank/9",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "bank",
+                                "9"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Store",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Accept",
+                                "value": "application/json",
+                                "type": "text"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\r\n    \"name\": \"Dr. Alda Dooley DVddM324\",\r\n    \"code\": \"001\"\r\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:8000/api/financial/v1/bank/",
+                            "protocol": "http",
+                            "host": [
+                                "127",
+                                "0",
+                                "0",
+                                "1"
+                            ],
+                            "port": "8000",
+                            "path": [
+                                "api",
+                                "financial",
+                                "v1",
+                                "bank",
+                                ""
+                            ],
+                            "query": [
+                                {
+                                    "key": "name",
+                                    "value": "Bank Of America",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "code",
+                                    "value": "100",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "digit",
+                                    "value": "3",
+                                    "disabled": true
+                                }
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        }
+    ]
+}
