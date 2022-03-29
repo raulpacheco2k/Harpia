@@ -1,7 +1,8 @@
 # Harpia
 
-Harpia é software de gestão financeira para brasileiros em situação de endividamento está sendo desenvolvido como TCC
-desenvolvido na lingugagem de programação PHP sobre a estrutura do Laravel Framework.
+Harpia é software de gestão financeira para brasileiros em situação de endividamento.
+
+Desenvolvido na linguagem de programação PHP sobre a estrutura do Laravel Framework.
 
 ## Porque Harpia existe?
 
