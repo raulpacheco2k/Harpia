@@ -4,8 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateBanksTable extends Migration
-{
+return new class extends Migration {
     public function up()
     {
         Schema::create('banks', function (Blueprint $table) {
@@ -15,6 +14,7 @@ class CreateBanksTable extends Migration
             $table->string('code');
             $table->string('digit')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
@@ -22,4 +22,4 @@ class CreateBanksTable extends Migration
     {
         Schema::dropIfExists('banks');
     }
-}
+};
