@@ -2025,5 +2025,212 @@ class BankSeeder extends Seeder
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Acesso Soluções De Pagamento S.A.',
+            'slug' => str('Acesso Soluções De Pagamento S.A.')->slug(),
+            'code' => '332',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'AGK Corretora De Câmbio S.A.',
+            'slug' => str('AGK Corretora De Câmbio S.A.')->slug(),
+            'code' => '272',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'AMAGGI S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO',
+            'slug' => str('AMAGGI S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO')->slug(),
+            'code' => '349',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Banco Bari De Investimentos E Financiamentos S.A',
+            'slug' => str('Banco Bari De Investimentos E Financiamentos S.A')->slug(),
+            'code' => '330',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Cambionet Corretora De Câmbio Ltda.',
+            'slug' => str('Cambionet Corretora De Câmbio Ltda.')->slug(),
+            'code' => '309',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Cooperativa De Crédito Rural Coopavel',
+            'slug' => str('Cooperativa De Crédito Rural Coopavel')->slug(),
+            'code' => '281',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Cooperativa De Crédito Rural De Abelardo Luz - Sulcredi/Crediluz',
+            'slug' => str('Cooperativa De Crédito Rural De Abelardo Luz - Sulcredi/Crediluz')->slug(),
+            'code' => '322',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Creditas Sociedade De Crédito Direto S.A.',
+            'slug' => str('Creditas Sociedade De Crédito Direto S.A.')->slug(),
+            'code' => '342',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Crefaz Sociedade De Crédito Ao Microempreendedor E A Empresa De Pequeno Porte Lt',
+            'slug' => str('Crefaz Sociedade De Crédito Ao Microempreendedor E A Empresa De Pequeno Porte Lt')->slug(),
+            'code' => '321',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Decyseo Corretora De Câmbio Ltda.',
+            'slug' => str('Decyseo Corretora De Câmbio Ltda.')->slug(),
+            'code' => '289',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Fram Capital Distribuidora De Títulos E Valores Mobiliários S.A.',
+            'slug' => str('Fram Capital Distribuidora De Títulos E Valores Mobiliários S.A.')->slug(),
+            'code' => '331',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Money Plus Sociedade De Crédito Ao Microempreendedor E A Empresa De Pequeno Port',
+            'slug' => str('Money Plus Sociedade De Crédito Ao Microempreendedor E A Empresa De Pequeno Port')->slug(),
+            'code' => '274',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'OM Distribuidora De Títulos E Valores Mobiliários Ltda.',
+            'slug' => str('OM Distribuidora De Títulos E Valores Mobiliários Ltda.')->slug(),
+            'code' => '319',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Órama Distribuidora De Títulos E Valores Mobiliários S.A.',
+            'slug' => str('Órama Distribuidora De Títulos E Valores Mobiliários S.A.')->slug(),
+            'code' => '325',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Otimo Sociedade De Credito Direto S.A.',
+            'slug' => str('Otimo Sociedade De Credito Direto S.A.')->slug(),
+            'code' => '355',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'PI Distribuidora De Títulos E Valores Mobiliários S.A.',
+            'slug' => str('PI Distribuidora De Títulos E Valores Mobiliários S.A.')->slug(),
+            'code' => '315',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Portopar Distribuidora De Títulos E Valores Mobiliários Ltda.',
+            'slug' => str('Portopar Distribuidora De Títulos E Valores Mobiliários Ltda.')->slug(),
+            'code' => '306',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'QI Sociedade De Crédito Direto S.A.',
+            'slug' => str('QI Sociedade De Crédito Direto S.A.')->slug(),
+            'code' => '329',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Terra Investimentos Distribuidora De Títulos E Valores Mobiliários Ltda.',
+            'slug' => str('Terra Investimentos Distribuidora De Títulos E Valores Mobiliários Ltda.')->slug(),
+            'code' => '307',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'UBS Brasil Corretora De Câmbio, Títulos E Valores Mobiliários S.A.',
+            'slug' => str('UBS Brasil Corretora De Câmbio, Títulos E Valores Mobiliários S.A.')->slug(),
+            'code' => '015',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Vision S.A. Corretora De Câmbio',
+            'slug' => str('Vision S.A. Corretora De Câmbio')->slug(),
+            'code' => '296',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Picpay Servicos S.A.',
+            'slug' => str('Picpay Servicos S.A.')->slug(),
+            'code' => '380',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('banks')->insert([
+            'name' => 'Gerencianet Pagamentos Do Brasil',
+            'slug' => str('Gerencianet Pagamentos Do Brasil')->slug(),
+            'code' => '364',
+            'digit' => '',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
     }
 }
