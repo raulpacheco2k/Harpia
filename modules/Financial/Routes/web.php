@@ -11,8 +11,10 @@
 |
 */
 
+use Modules\Financial\Http\Controllers\BankAccountTypeController;
 use Modules\Financial\Http\Controllers\BankController;
 
 Route::group(['as' => 'financial.'], function () {
     Route::resource('bank', BankController::class);
+    Route::resource('bankAccountType', BankAccountTypeController::class);
 });
