@@ -18,7 +18,7 @@ class BankAccountTypeSeeder extends Seeder
         ]);
 
         DB::table('bank_account_types')->insert([
-            'name' => ' Conta Poupança',
+            'name' => 'Conta Poupança',
             'slug' => str(' Conta Poupança')->slug(),
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now()
