@@ -11,7 +11,8 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+mix.css('modules/Core/Resources/assets/tabler.io/css/tabler.css', 'css/tabler.css')
+    .css('modules/Core/Resources/assets/tabler.io/css/tabler-flags.css', 'css/tabler-flags.css')
+    .css('modules/Core/Resources/assets/tabler.io/css/tabler-payments.css', 'css/tabler-payments.css')
+    .css('modules/Core/Resources/assets/tabler.io/css/tabler-vendors.css', 'css/tabler-vendors.css')
+    .css('modules/Core/Resources/assets/tabler.io/css/demo.css', 'css/demo.css');
