@@ -13,3 +13,9 @@ yarn-error.log
 /.idea
 /.vscode
 composer.lock
+/public/css
+/public/js
+/public/images
+/public/libs
+/public/mix-manifest.json
+docs/Related Entity Model.mwb.bak
