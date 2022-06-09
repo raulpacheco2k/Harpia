@@ -9,6 +9,9 @@ return new class extends Migration {
     {
         Schema::create('bank_accounts', static function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('bank_id');
+            $table->unsignedBigInteger('bank_account_type_id');
             $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('bank_id')->references('id')->on('banks');
             $table->foreign('bank_account_type_id')->references('id')->on('bank_account_types');
