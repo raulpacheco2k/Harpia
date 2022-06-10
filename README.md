@@ -1,6 +1,6 @@
 # Harpia
 
-Harpia é software de gestão financeira para brasileiros em situação de endividamento.
+Harpia é software de gestão de finanças pessoais.
 
 Desenvolvido na linguagem de programação PHP sobre a estrutura do Laravel Framework.
 
