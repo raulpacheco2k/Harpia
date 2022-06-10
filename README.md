@@ -23,27 +23,3 @@ trabalho.
 Desenvolver um software que auxilie famílias endividadas e/ou com má gestão dos recursos financeiros a realizar uma
 melhor gestão do dinheiro, para que possa futuramente vir a ter uma reserva de emergência, tendo assim, mais segurança e
 harmonia dentro de casa.
-
-## Como inicializar o projeto
-
-Utilizamos Docker como ambiente de desenvolvimento.
-
-### Container application:harpia
-
-O container _application:harpia_ rodará na porta `:8000` e neste container estará localizado o Apache, PHP, Laravel e
-Composer.
-
-#### Versões
-
-* Apache 2
-* PHP 8.1
-* Composer 2
-* Laravel 9.2
-
-### Container database:harpia
-
-O container _database:harpia_ rodará na porta `:3306` e neste container esta localizado o servido do MySQL.
-
-#### Versões
-
-* MySQL 8
